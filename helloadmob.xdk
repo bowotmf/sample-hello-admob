@@ -7,7 +7,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "840ebaa0-20ba-4e41-b477-a5ceef0d4745",
-      "lastModifiedDate": 1409267289763,
+      "lastModifiedDate": 1409268201751,
       "creationDate": 1409267006281
     },
     "sourceDirectory": "",
@@ -82,7 +82,7 @@
         "runtime_": "Cordova 3.x",
         "appVersionCode_": "1",
         "appDescription_": "Hello World for  Admob Cordova Plugin",
-        "appAuthor_": "Rakshith Krishnappa"
+        "appAuthor_": "Intel Corporation"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -105,7 +105,7 @@
         "appVersion_": "1.0.0",
         "runtime_": "Crosswalk with Cordova 3.x",
         "appVersionCode_": "1",
-        "appAuthor_": "Rakshith Krishnappa",
+        "appAuthor_": "Intel Corporation",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "iOS": {
@@ -130,7 +130,7 @@
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0",
         "runtime_": "Cordova 3.x",
-        "appAuthor_": "Rakshith Krishnappa",
+        "appAuthor_": "Intel Corporation",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "Windows8": {
@@ -150,7 +150,7 @@
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0.0",
         "runtime_": "Cordova 3.x",
-        "appAuthor_": "Rakshith Krishnappa",
+        "appAuthor_": "Intel Corporation",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "WindowsPhone8": {
