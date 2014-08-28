@@ -1,0 +1,17 @@
+{
+	"reponame":"sample-hello-admob",
+	"title":"Hello Admob",
+	"abbr":"URL App",
+	"tooltip":"A simple Hello World app to show Admob Ads",
+	"description":"A simple Hello World app to show Admob Ads using Cordova plugins, both banner and full screen Admob Ads are implemented.",
+	"articleurl":"TBA",
+    	"screenshotUrl":"",
+    	"iconUrl":"",
+	"highlights":["Plugins"],
+    	"keywords":["Plugins"],
+	"visible": "false",
+	"apppreview":"true",
+	"type":"blank",
+	"appname":"demo.helloadmob",
+	"relname":"4.0.0"
+}
