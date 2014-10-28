@@ -7,10 +7,10 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
       "projectGuid": "840ebaa0-20ba-4e41-b477-a5ceef0d4745",
-      "lastModifiedDate": 1411075785426,
+      "lastModifiedDate": 1409268201751,
       "creationDate": 1409267006281
     },
-    "sourceDirectory": "",
+    "sourceDirectory": "www",
     "cordovaPluginsDirectory": "plugins",
     "startFile": "index.html",
     "projectFiles": {},
@@ -62,11 +62,10 @@
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
-        "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "19"
+          "android-targetedSdkVersion": "19"
         },
         "isActive_": true,
         "appName_": "helloadmob",
@@ -77,20 +76,20 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.3",
+        "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0",
+        "runtime_": "Cordova 3.x",
         "appVersionCode_": "1",
         "appDescription_": "Hello World for  Admob Cordova Plugin",
         "appAuthor_": "Intel Corporation"
       },
       "Android-Crosswalk": {
         "platform_": "android",
-        "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
           "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19"
+          "android-targetedSdkVersion": "19"
         },
         "isActive_": true,
         "appName_": "helloadmob",
@@ -101,16 +100,16 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.3",
+        "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0",
+        "runtime_": "Crosswalk with Cordova 3.x",
         "appVersionCode_": "1",
         "appAuthor_": "Intel Corporation",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "iOS": {
         "platform_": "ios",
-        "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {},
         "isActive_": true,
@@ -127,15 +126,15 @@
         ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.3",
+        "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0",
+        "runtime_": "Cordova 3.x",
         "appAuthor_": "Intel Corporation",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "Windows8": {
         "platform_": "windows8",
-        "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
@@ -147,15 +146,15 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.3",
+        "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
         "appVersion_": "1.0.0.0",
+        "runtime_": "Cordova 3.x",
         "appAuthor_": "Intel Corporation",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "WindowsPhone8": {
         "platform_": "wp8",
-        "runtime_": "Cordova 3.x",
         "name_": "WindowsPhone8",
         "preferences_": {},
         "isActive_": true,
@@ -167,9 +166,10 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.3",
+        "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0.0"
+        "appVersion_": "1.0.0.0",
+        "runtime_": "Cordova 3.x"
       }
     }
   }
