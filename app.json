@@ -7,9 +7,10 @@
     	"screenshotUrl":"",
     	"iconUrl":"",
 	"highlights":["Apache Cordova API", "Ads"],
-    "keywords":["Apache Cordova API", "Ads","Monetize"],
+    	"keywords":["Apache Cordova API", "Ads","Monetize"],
 	"visible": "true",
 	"apppreview":"false",
 	"appname":"demo.helloadmob",
-	"relname":"4.0.0"
+	"relname":"4.0.0",
+  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
 }
