@@ -1,23 +1,23 @@
-Hello Admob App
-============================
-A simple Hello World app to show Admob Ads using Cordova plugins.
+Augmented Reality Location Search
+=======================
+Simple Augmented Reality App implemented using HTML5 and Cordova API with US cities overlay. Uses Cordova API to access device compass, accelerometer and geolocation.
 
-Intel(R) XDK 
+
+Intel(R) XDK
 -------------------------------------------
 This sample is part of the Intel(R) XDK. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
-please visit the sample article page at TBA.
+Please sign up at http://software.intel.com/en-us/html5.
+To see the technical detail of the sample, please visit the sample article page 
+at http://software.intel.com/en-us/html5/articles/augmented-reality-mobile-app-with-html5. 
 
-
-Important App Files
----------------------------
-* index.html
-* screenshot.png
+Application Files
+-----------------
 * app.json
-* README.md
+* index.html
+* readme.md
+* screenshot.png
+* lib/*
 
-License Information Follows
----------------------------
 Copyright (c) 2014, Intel Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
@@ -44,4 +44,12 @@ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
 HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+jQuery
+--------------------------
+* jquery-1.8.2.min.js (jquery-1.8.2.min.js)
+
+* source:   http://jquery.com/
+* source:   http://jquerymobile.com/
+* license:  http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
 

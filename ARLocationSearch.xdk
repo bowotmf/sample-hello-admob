@@ -2,13 +2,14 @@
   "project": {
     "projectSettingsVersion": "1.1",
     "creationData": {
-      "type": "Import",
+      "type": "Demo",
       "createDefaultBuildConfigs": true,
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "",
-      "projectGuid": "840ebaa0-20ba-4e41-b477-a5ceef0d4745",
-      "lastModifiedDate": 1409268201751,
-      "creationDate": 1409267006281
+      "src": "https://edge-intel.s3.amazonaws.com/samples/production/sample-ar-nearby-search/sample.zip",
+      "sourceDirectory": "www",
+      "projectGuid": "89c525f2-c3b3-4c0f-8845-5c5661f632d3",
+      "lastModifiedDate": 1407878812638,
+      "creationDate": 1407798568158
     },
     "sourceDirectory": "www",
     "cordovaPluginsDirectory": "plugins",
@@ -33,6 +34,13 @@
     ],
     "cordovaPlugins": [
       {
+        "id": "org.apache.cordova.geolocation",
+        "version": "0.3.7",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
         "id": "org.apache.cordova.splashscreen",
         "version": "0.3.0",
         "selectedState": "Included",
@@ -40,22 +48,18 @@
         "paramvals": {}
       },
       {
-        "id": "org.apache.cordova.device",
-        "version": "0.2.9",
+        "id": "org.apache.cordova.device-orientation",
+        "version": "0.3.6",
         "selectedState": "Included",
         "data": {},
         "paramvals": {}
       },
       {
-        "id": "com.rjfun.cordova.plugin.admob",
-        "version": "",
+        "id": "org.apache.cordova.device-motion",
+        "version": "0.2.7",
         "selectedState": "Included",
         "data": {},
-        "paramvals": {},
-        "custom": "true",
-        "name": "Admob (floatinghotpot)",
-        "origin": "https://github.com/floatinghotpot/cordova-plugin-admob.git",
-        "originType": "repo"
+        "paramvals": {}
       }
     ],
     "serviceMethods": [],
@@ -68,8 +72,8 @@
           "android-targetedSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "helloadmob",
-        "appID_": "com.intel.helloadmob",
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -78,11 +82,10 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0",
+        "appVersion_": "0.0.1",
         "runtime_": "Cordova 3.x",
-        "appVersionCode_": "1",
-        "appDescription_": "Hello World for  Admob Cordova Plugin",
-        "appAuthor_": "Intel Corporation"
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information.",
+        "appVersionCode_": "1"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -92,8 +95,8 @@
           "android-targetedSdkVersion": "19"
         },
         "isActive_": true,
-        "appName_": "helloadmob",
-        "appID_": "com.intel.helloadmob",
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -102,44 +105,39 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0",
+        "appVersion_": "0.0.1",
         "runtime_": "Crosswalk with Cordova 3.x",
-        "appVersionCode_": "1",
-        "appAuthor_": "Intel Corporation",
-        "appDescription_": "Hello World for  Admob Cordova Plugin"
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information.",
+        "appVersionCode_": "1"
       },
       "iOS": {
         "platform_": "ios",
         "name_": "iOS",
-        "preferences_": {},
+        "preferences_": {
+          "ios-target": "5"
+        },
         "isActive_": true,
-        "appName_": "helloadmob",
-        "appID_": "com.intel.helloadmob",
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [
-          {
-            "relPath": "ios/Intel_Distribution_Profile.mobileprovision",
-            "type": "adhoc"
-          }
-        ],
+        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0",
+        "appVersion_": "0.0.1",
         "runtime_": "Cordova 3.x",
-        "appAuthor_": "Intel Corporation",
-        "appDescription_": "Hello World for  Admob Cordova Plugin"
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information."
       },
       "Windows8": {
         "platform_": "windows8",
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "helloadmob",
-        "appID_": "com.intel.helloadmob",
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -148,17 +146,16 @@
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
         "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0.0",
+        "appVersion_": "0.0.0.1",
         "runtime_": "Cordova 3.x",
-        "appAuthor_": "Intel Corporation",
-        "appDescription_": "Hello World for  Admob Cordova Plugin"
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information."
       },
       "WindowsPhone8": {
         "platform_": "wp8",
         "name_": "WindowsPhone8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "helloadmob",
+        "appName_": "ARLocationSearch",
         "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
