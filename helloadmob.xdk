@@ -1,12 +1,12 @@
 {
   "project": {
-    "projectSettingsVersion": "1.1",
+    "projectSettingsVersion": "1.2",
     "creationData": {
       "type": "Import",
       "createDefaultBuildConfigs": true,
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "840ebaa0-20ba-4e41-b477-a5ceef0d4745",
+			"projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1409268201751,
       "creationDate": 1409267006281
     },
@@ -76,8 +76,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "1.0.0",
         "runtime_": "Cordova 3.x",
         "appVersionCode_": "1",
@@ -100,8 +100,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "1.0.0",
         "runtime_": "Crosswalk with Cordova 3.x",
         "appVersionCode_": "1",
@@ -126,8 +126,8 @@
         ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "1.0.0",
         "runtime_": "Cordova 3.x",
         "appAuthor_": "Intel Corporation",
@@ -146,11 +146,11 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "1.0.0.0",
         "runtime_": "Cordova 3.x",
-        "appAuthor_": "Intel Corporation",
+				"appAuthor_": "Intel XDK",
         "appDescription_": "Hello World for  Admob Cordova Plugin"
       },
       "WindowsPhone8": {
@@ -166,8 +166,8 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
+				"cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
         "appVersion_": "1.0.0.0",
         "runtime_": "Cordova 3.x"
       }
