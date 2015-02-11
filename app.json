@@ -3,7 +3,7 @@
 	"title":"Hello Admob",
 	"tooltip":"A simple Hello World app to show Admob Ads",
 	"description":"A simple Hello World app to show Admob Ads using Cordova plugins, both banner and full screen Admob Ads are implemented.",
-	"articleurl":"TBA",
+	"articleurl":"",
     	"screenshotUrl":"",
     	"iconUrl":"",
 	"highlights":["Apache Cordova API", "Ads"],
