@@ -1,16 +1,24 @@
 {
-	"reponame":"sample-hello-admob",
-	"title":"Hello Admob",
-	"tooltip":"A simple Hello World app to show Admob Ads",
-	"description":"A simple Hello World app to show Admob Ads using Cordova plugins, both banner and full screen Admob Ads are implemented.",
-	"articleurl":"",
-    	"screenshotUrl":"",
-    	"iconUrl":"",
-	"highlights":["Apache Cordova API", "Ads"],
-    	"keywords":["Apache Cordova API", "Ads","Monetize"],
-	"visible": "true",
-	"apppreview":"false",
-	"appname":"demo.helloadmob",
-	"relname":"4.0.0",
-  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+   "repoName" : "sample-hello-admob",
+   "description" : "A simple Hello World app to show Admob Ads using Cordova plugins, both banner and full screen Admob Ads are implemented.",
+   "appPreview" : false,
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "relName" : "4.0.0",
+   "articleUrl" : "",
+   "highlights" : [
+      "Apache Cordova API",
+      "Ads"
+   ],
+   "mobile" : false,
+   "keywords" : [
+      "Apache Cordova API",
+      "Ads",
+      "Monetize"
+   ],
+   "iconUrl" : "",
+   "screenshotUrl" : "",
+   "title" : "Hello Admob",
+   "tooltip" : "A simple Hello World app to show Admob Ads",
+   "visible" : true,
+   "appName" : "demo.helloadmob"
 }
