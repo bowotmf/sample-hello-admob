@@ -77,7 +77,7 @@
         "appVersion_": "1.0.0",
         "appVersionCode_": "1",
         "appDescription_": "Hello World for  Admob Cordova Plugin",
-         "appAuthor_": "Intel XDK",
+         "appAuthor_": "Intel XDK"
       },
       "Android-Crosswalk": {
         "platform_": "android",
