@@ -48,28 +48,6 @@
                 "originType": "repo"
             }
         ],
-<<<<<<< HEAD
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "iosProvs_": [],
-         "cordovaCLIVersion_": "?",
-         "crosswalkVersion_": "?",
-        "appVersion_": "1.0.0",
-        "appVersionCode_": "1",
-        "appDescription_": "Hello World for  Admob Cordova Plugin",
-         "appAuthor_": "Intel XDK"
-      },
-      "Android-Crosswalk": {
-        "platform_": "android",
-         "runtime_": "Crosswalk with Cordova 3.x",
-        "name_": "Android-Crosswalk",
-        "preferences_": {
-         "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
-=======
         "serviceMethods": [],
         "buildConfigurations": {
             "Android": {
@@ -266,7 +244,6 @@
                 "appAuthor_": "Intel XDK",
                 "appVersion_": "0.0.1"
             }
->>>>>>> 61fb1527d0c193d9518595170c017f2a6e779ec3
         },
         "gameAssetDirectory": "asset",
         "gameMetadata": {},
