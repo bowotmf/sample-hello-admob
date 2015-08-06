@@ -36,7 +36,7 @@
             },
             {
                 "id": "com.rjfun.cordova.plugin.admob",
-                "version": "?",
+                "version": "",
                 "selectedState": "Included",
                 "data": {},
                 "paramvals": {},
