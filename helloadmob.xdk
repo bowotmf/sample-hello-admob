@@ -1,63 +1,13 @@
 {
-  "project": {
-    "projectSettingsVersion": "1.2",
-    "creationData": {
-      "type": "Demo",
-      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-hello-admob/sample.zip",
-         "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1430232264832,
-      "creationDate": 1423692399752
-    },
-    "sourceDirectory": "www",
-    "cordovaPluginsDirectory": "plugins",
-    "startFile": "index.html",
-    "projectFiles": {},
-    "projectDirectories": {},
-    "libraries": [],
-    "cordovaPlugins": [
-      {
-        "id": "org.apache.cordova.splashscreen",
-         "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "org.apache.cordova.device",
-         "version": "?",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": []
-      },
-      {
-        "id": "com.rjfun.cordova.plugin.admob",
-         "version": "",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {},
-        "dependsOn": [],
-        "dependedBy": [],
-        "custom": "true",
-        "name": "Admob (floatinghotpot)",
-        "origin": "https://github.com/floatinghotpot/cordova-plugin-admob.git",
-        "originType": "repo"
-      }
-    ],
-    "serviceMethods": [],
-    "buildConfigurations": {
-      "Android": {
-        "platform_": "android",
-         "runtime_": "Cordova 3.x",
-        "name_": "Android",
-        "preferences_": {
-         "android-minSdkVersion": "10",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
+    "project": {
+        "projectSettingsVersion": "1.2",
+        "creationData": {
+            "type": "Demo",
+            "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+            "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-hello-admob/sample.zip",
+            "projectGuid": "00000000-0000-0000-0000-000000000000",
+            "lastModifiedDate": 1429656120771,
+            "creationDate": 1423692399752
         },
         "sourceDirectory": "www",
         "cordovaPluginsDirectory": "plugins",
