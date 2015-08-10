@@ -59,38 +59,44 @@
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto"
         },
-         "isActive_": true,
-        "appName_": "helloadmob",
-        "appID_": "com.intel.helloadmob",
-         "appAccess_": [{"origin": "*"}],
-        "icons_": [],
-        "splashes_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-        "iosProvs_": [],
-         "cordovaCLIVersion_": "?",
-         "crosswalkVersion_": "?",
-        "appVersion_": "1.0.0",
-        "appVersionCode_": "1",
-        "appDescription_": "Hello World for  Admob Cordova Plugin",
-         "appAuthor_": "Intel XDK"
-      },
-      "Android-Crosswalk": {
-        "platform_": "android",
-         "runtime_": "Crosswalk with Cordova 3.x",
-        "name_": "Android-Crosswalk",
-        "preferences_": {
-         "android-minSdkVersion": "14",
-          "android-targetSdkVersion": "19",
-          "android-installLocation": "auto"
-        },
-         "isActive_": true,
-        "appName_": "helloadmob",
-        "appID_": "com.intel.helloadmob",
-        "appAccess_": [
-          {
-            "origin": "*"
-          }
+        "sourceDirectory": "www",
+        "cordovaPluginsDirectory": "plugins",
+        "startFile": "index.html",
+        "projectFiles": {},
+        "projectDirectories": {},
+        "libraries": [],
+        "cordovaPlugins": [
+            {
+                "id": "org.apache.cordova.splashscreen",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "org.apache.cordova.device",
+                "version": "?",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": []
+            },
+            {
+                "id": "com.rjfun.cordova.plugin.admob",
+                "version": "",
+                "selectedState": "Included",
+                "data": {},
+                "paramvals": {},
+                "dependsOn": [],
+                "dependedBy": [],
+                "custom": "true",
+                "name": "Admob (floatinghotpot)",
+                "origin": "https://github.com/floatinghotpot/cordova-plugin-admob.git",
+                "originType": "repo"
+            }
         ],
         "serviceMethods": [],
         "buildConfigurations": {
