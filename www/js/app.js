@@ -44,16 +44,16 @@ function initAdMob() {
             //Login to https://apps.admob.com to get AD-UNIT-ID
             var ad_units = {
                 ios: {
-                    banner: 'ca-app-pub-6869992474017983/4806197152',
-                    interstitial: 'ca-app-pub-6869992474017983/7563979554'
+                    banner: 'ca-app-pub-8394522249550050/9021994125',
+                    interstitial: 'ca-app-pub-8394522249550050/1498727321'
                 },
                 android: {
-                    banner: 'ca-app-pub-6869992474017983/9375997553',
-                    interstitial: 'ca-app-pub-6869992474017983/1657046752'
+                    banner: 'ca-app-pub-8394522249550050/4591794527',
+                    interstitial: 'ca-app-pub-8394522249550050/6068527723'
                 },
                 wp8: {
-                    banner: 'ca-app-pub-6869992474017983/8878394753',
-                    interstitial: 'ca-app-pub-6869992474017983/1355127956'
+                    banner: 'ca-app-pub-8394522249550050/5928926928',
+                    interstitial: 'ca-app-pub-8394522249550050/7405660121'
                 }
             };
             var admobid = "";
