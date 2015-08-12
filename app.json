@@ -4,7 +4,7 @@
    "appPreview" : false,
    "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
    "relName" : "4.0.0",
-   "articleUrl" : "",
+   "articleUrl" : "https://github.com/gomobile/sample-hello-admob/blob/master/docs/README.md",
    "highlights" : [
       "Apache Cordova API",
       "Ads"
