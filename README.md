@@ -1,47 +1,26 @@
-Hello Admob App
-============================
-A simple Hello World app to show Admob Ads using Cordova plugins.
+Hello Admob
+=====================================================================
 
-Intel(R) XDK 
--------------------------------------------
-This sample is part of the Intel(R) XDK. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
-please visit the sample article page at TBA.
+See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
+
+## Project Details ##
+
+This sample is part of the Intel® XDK. 
+Download the Intel® XDK at [http://software.intel.com/en-us/html5](http://software.intel.com/en-us/html5). With the Hello Admob sample you can show banner and full screen Admob ads within your mobile application. 
 
 
-Important App Files
----------------------------
-* index.html
-* screenshot.png
-* app.json
-* README.md
+The Audio Player App demonstrates the use of the [floatinghotspot Admob plugin](https://github.com/floatinghotpot/cordova-plugin-admob) to show how to create, show and remove banner and interstitial ads. To see the technical details of the sample, 
+please visit the **[included tutorial][]**. 
+[included tutorial]: docs/README.md
 
-License Information Follows
----------------------------
-Copyright (c) 2014, Intel Corporation. All rights reserved.
 
-Redistribution and use in source and binary forms, with or without modification, 
-are permitted provided that the following conditions are met:
 
-- Redistributions of source code must retain the above copyright notice, 
-  this list of conditions and the following disclaimer.
+## NOTE: ##
 
-- Redistributions in binary form must reproduce the above copyright notice, 
-  this list of conditions and the following disclaimer in the documentation 
-  and/or other materials provided with the distribution.
+Please ignore the `config.xml` file, the Cordova CLI `config.xml` format has
+been changing significantly, especially with the release of CLI 5.0, and this
+`config.xml` file has not been updated to reflect those changes. It will not
+work as written. It was originally created for use with PhoneGap CLI and has
+not been updated for use with the current PhoneGap CLI system, either.
 
-- Neither the name of Intel Corporation nor the names of its contributors 
-  may be used to endorse or promote products derived from this software 
-  without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
-GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
-OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
