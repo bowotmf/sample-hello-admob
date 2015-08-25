@@ -8,8 +8,9 @@
 !/LICENSE.md
 !/intelxdk.config.additions.xml
 !/*.xdk
-!/.gitignore
-!/.jscodehints
 !/app.json
-!/screenshot.png
-!/icon.png
+!/.gitignore
+!/*.png
+!/.jscodehints
+
+
