@@ -17,13 +17,38 @@
         "libraries": [],
         "cordovaPlugins": [
             {
-                "id": "org.apache.cordova.splashscreen",
+                "id": "cordova-plugin-statusbar",
+                "name": "StatusBar",
+                "version": "?",
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-statusbar",
+                "gitref": "",
+                "paramvals": {},
+                "selectedState": "Included",
+                "dependsOn": [],
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "permissions": {},
+                "description": "Cordova StatusBar Plugin",
+                "data": {},
+                "dependedBy": []
+             },
+            {
+                "id": "cordova-plugin-splashscreen",
                 "version": "?",
                 "selectedState": "Included",
                 "data": {},
                 "paramvals": {},
                 "dependsOn": [],
-                "dependedBy": []
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-splashscreen",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Splashscreen",
+                "cordovaVersion": "?",
+                "description": "Cordova Splashscreen Plugin"
             },
             {
                 "id": "org.apache.cordova.device",
@@ -32,7 +57,15 @@
                 "data": {},
                 "paramvals": {},
                 "dependsOn": [],
-                "dependedBy": []
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-device",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Device",
+                "cordovaVersion": "?",
+                "description": "Cordova Device Plugin"
             },
             {
                 "id": "com.rjfun.cordova.plugin.admob",
@@ -45,40 +78,18 @@
                 "custom": "true",
                 "name": "Admob (floatinghotpot)",
                 "origin": "https://github.com/floatinghotpot/cordova-plugin-admob.git",
-                "originType": "repo"
+                "originType": "repo",
+                "permissions": {},
+                "gitref": "",
+                "subdir": ".",
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "description": "Cordova plugin for AdMob Ads",
+                "author": "Liming Xie"
             }
         ],
         "serviceMethods": [],
         "buildConfigurations": {
-            "Android": {
-                "platform_": "android",
-                "runtime_": "Cordova 3.x",
-                "name_": "Android",
-                "preferences_": {
-                    "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
-                    "android-installLocation": "auto"
-                },
-                "isActive_": true,
-                "appName_": "helloadmob",
-                "appID_": "com.intel.helloadmob",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
-                "icons_": [],
-                "splashes_": [],
-                "addlPermissions_": "",
-                "excludedLibraries_": "",
-                "iosProvs_": [],
-                "cordovaCLIVersion_": "?",
-                "crosswalkVersion_": "?",
-                "appVersion_": "1.0.0",
-                "appVersionCode_": "1",
-                "appDescription_": "Hello World for  Admob Cordova Plugin",
-                "appAuthor_": "Intel XDK"
-            },
             "Android-Crosswalk": {
                 "platform_": "android",
                 "runtime_": "Crosswalk with Cordova 3.x",
@@ -107,6 +118,35 @@
                 "appVersionCode_": "1",
                 "appAuthor_": "Intel XDK",
                 "appDescription_": "Hello World for  Admob Cordova Plugin"
+            },
+            "Android": {
+                "platform_": "android",
+                "runtime_": "Cordova 3.x",
+                "name_": "Android",
+                "preferences_": {
+                    "android-minSdkVersion": "14",
+                    "android-targetSdkVersion": "19",
+                    "android-installLocation": "auto"
+                },
+                "isActive_": true,
+                "appName_": "helloadmob",
+                "appID_": "com.intel.helloadmob",
+                "appAccess_": [
+                    {
+                        "origin": "*"
+                    }
+                ],
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "iosProvs_": [],
+                "cordovaCLIVersion_": "?",
+                "crosswalkVersion_": "?",
+                "appVersion_": "1.0.0",
+                "appVersionCode_": "1",
+                "appDescription_": "Hello World for  Admob Cordova Plugin",
+                "appAuthor_": "Intel XDK"
             },
             "iOS": {
                 "platform_": "ios",
