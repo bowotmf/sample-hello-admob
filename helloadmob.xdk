@@ -31,7 +31,7 @@
                 "description": "Cordova StatusBar Plugin",
                 "data": {},
                 "dependedBy": []
-             },
+            },
             {
                 "id": "cordova-plugin-splashscreen",
                 "version": "?",
@@ -92,13 +92,13 @@
         ],
         "serviceMethods": [],
         "buildConfigurations": {
-            "Android-Crosswalk": {
+            "Android": {
                 "platform_": "android",
                 "runtime_": "Crosswalk with Cordova 3.x",
                 "name_": "Android-Crosswalk",
                 "preferences_": {
                     "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
+                    "android-targetSdkVersion": "23",
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
@@ -107,7 +107,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -124,44 +124,12 @@
                 "appAuthor_": "Intel XDK",
                 "appDescription_": "Hello World for  Admob Cordova Plugin"
             },
-            "Android": {
-                "platform_": "android",
-                "runtime_": "Cordova 3.x",
-                "name_": "Android",
-                "preferences_": {
-                    "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
-                    "android-installLocation": "auto"
-                },
-                "isActive_": true,
-                "appName_": "Hello-Admob",
-                "appID_": "com.intel.helloadmob",
-                "appAccess_": {
-                    "mode": "legacy",
-                    "network": [
-                        "http://debug-software.intel.com/*", 
-                        "https://debug-software.intel.com/*"
-                    ],
-                    "intents": [],
-                    "navigation": []
-                },
-                "icons_": [],
-                "splashes_": [],
-                "addlPermissions_": "",
-                "excludedLibraries_": "",
-                "cordovaCLIVersion_": "?",
-                "crosswalkVersion_": "?",
-                "appVersion_": "1.0.0",
-                "appVersionCode_": "1",
-                "appDescription_": "Hello World for  Admob Cordova Plugin",
-                "appAuthor_": "Intel XDK"
-            },
             "iOS": {
                 "platform_": "ios",
                 "runtime_": "Cordova 3.x",
                 "name_": "iOS",
                 "preferences_": {
-                    "ios-target": "6",
+                    "ios-target": "8.0",
                     "ios-configuration": "adhoc"
                 },
                 "isActive_": true,
@@ -170,7 +138,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -198,7 +166,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -225,7 +193,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -249,7 +217,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -273,7 +241,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -297,7 +265,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
@@ -321,7 +289,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
                     ],
                     "intents": [],
