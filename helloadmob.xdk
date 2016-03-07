@@ -105,7 +105,7 @@
                 "appName_": "Hello-Admob",
                 "appID_": "com.intel.helloadmob",
                 "appAccess_": {
-                    "mode": "legacy",
+                    "mode": "whitelist",
                     "network": [
                         "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*"
