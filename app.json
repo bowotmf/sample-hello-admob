@@ -19,6 +19,6 @@
    "screenshotUrl" : "",
    "title" : "Hello Admob",
    "tooltip" : "A simple Hello World app to show Admob Ads",
-   "visible" : true,
+   "visible" : false,
    "appName" : "demo.helloadmob"
 }
