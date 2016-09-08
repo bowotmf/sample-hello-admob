@@ -1,24 +1,11 @@
 {
-   "repoName" : "sample-hello-admob",
-   "description" : "A simple Hello World app to show Admob Ads using Cordova plugins, both banner and full screen Admob Ads are implemented.",
-   "appPreview" : false,
-   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
-   "relName" : "4.0.0",
-   "articleUrl" : "https://github.com/gomobile/sample-hello-admob/blob/master/docs/README.md",
-   "highlights" : [
-      "Apache Cordova API",
-      "Ads"
-   ],
-   "mobile" : false,
-   "keywords" : [
-      "Apache Cordova API",
-      "Ads",
-      "Monetize"
-   ],
-   "iconUrl" : "",
-   "screenshotUrl" : "",
-   "title" : "Hello Admob",
-   "tooltip" : "A simple Hello World app to show Admob Ads",
-   "visible" : false,
-   "appName" : "demo.helloadmob"
+  "title" : "Hello Admob",
+  "tooltip" : "A simple app to demonstrate Admob ads",
+  "description" : "A simple app to demonstrate Admob ads using a Cordova plugin. Banner and full screen Admob ads are implemented.",
+  "repoName" : "sample-hello-admob",
+  "sample" : true,
+  "visible" : false,
+  "keywords" : [ "Cordova", "monetization" ],
+  "articleUrl" : "https://github.com/gomobile/sample-hello-admob/blob/master/docs/README.md",
+  "projectTypeName" : "com.intel.xdk.projecttype.jsapp"
 }
